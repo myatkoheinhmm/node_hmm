@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .product-image {
+            text-align: center;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-title {
+            font-size: 1.25rem;
+            margin: 10px 0;
+        }
+
+        .product-description {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-weight: bold;
+            color: #e44d26;
+            margin-top: auto;
+        }
+
+        .product-button {
+            background-color: #e44d26;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product-button:hover {
+            background-color: #d2381e;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header> -->
+        <h1>Product Listing</h1>
+    <!-- </header> -->
+    <div class="container">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="product1.jpg" alt="Product 1">
+            </div>
+            <div class="product-details">
+                <h2 class="product-title">Product 1</h2>
+                <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="product-price">$19.99</p>
+            </div>
+            <button class="product-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="product2.jpg" alt="Product 2">
+            </div>
+            <div class="product-details">
+                <h2 class="product-title">Product 2</h2>
+                <p class="product-description">Suspendisse potenti. Nullam in arcu id ipsum pharetra hendrerit.</p>
+                <p class="product-price">$24.99</p>
+            </div>
+            <button class="product-button">Add to Cart</button>
+        </div>
+
+        <!-- Add more product cards here -->
+
+    </div>
+
+</body>
+</html>
